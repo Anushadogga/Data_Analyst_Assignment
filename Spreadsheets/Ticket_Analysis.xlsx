@@ -1,0 +1,6 @@
+VLOOKUP:
+=VLOOKUP(A2, ticket!E:B, 2, FALSE)
+Same Day:
+=INT(B2)=INT(C2)
+Same Hour:
+=AND(INT(B2)=INT(C2), HOUR(B2)=HOUR(C2))
